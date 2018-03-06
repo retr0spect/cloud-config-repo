@@ -3,5 +3,5 @@ zuul.prefix:  /api
 zuul.routes.order-service: /order/**
 zuul.routes.user-service: /user/**
 zuul.routes.authentication-service: /auth/**
-zuul.sensitiveHeaders: Cookie,Set-Cookie
+zuul.sensitive-headers: Cookie,Set-Cookie
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500

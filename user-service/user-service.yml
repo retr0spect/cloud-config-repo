@@ -1,1 +1,3 @@
 spring.data.mongodb.uri: "mongodb://admin:pass@ds243768.mlab.com:43768/spring2cloud"
+redis.server: "redis"
+redis.port: "6379"
